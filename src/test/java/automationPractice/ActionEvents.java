@@ -19,6 +19,8 @@ public class ActionEvents {
 		  driver.get("https://www.browserstack.com/");  //URL Launch
 		  driver.manage().window().maximize();
 		  
+		  System.out.println("Vinay is making some changes in it");
+		  
 		  WebElement productMenu=driver.findElement(By.cssSelector("button#products-dd-toggle"));
 		  
 		  Actions a=new Actions(driver);
