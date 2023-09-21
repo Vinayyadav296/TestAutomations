@@ -20,6 +20,7 @@ public class ActionEvents {
 		  driver.manage().window().maximize();
 		  
 		  System.out.println("Vinay is making some changes in it");
+		  System.out.println("Vinay has made second update into it");
 		  
 		  WebElement productMenu=driver.findElement(By.cssSelector("button#products-dd-toggle"));
 		  
